@@ -2,15 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-body {
-    background-color: #000000;
-}
-
 /* Main section */
-
-header {
-    background-color: black;
-}
 
 .intro img {
     position: relative;
@@ -21,7 +13,7 @@ header {
 .intro h1, h2 {
     position: relative;
     text-align: center;
-
+    float: inherit;
 }
 
 .intro h1 {
@@ -67,7 +59,6 @@ header {
 }
 
 /* Video */
-
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -88,7 +79,6 @@ header {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url("../Two-Swimmers/Two-Swimmers.jpg");
 }
 .video-container .poster img {
     width: 100%;
@@ -109,5 +99,4 @@ header {
 .video-container video.fillWidth {
     width: 100%;
 }
-
 /* Media queries */
