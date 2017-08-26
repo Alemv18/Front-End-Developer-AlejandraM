@@ -1,17 +1,32 @@
-/*section {*/
-    /*display: block;*/
-/*}*/
+/* Add external fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-/*#main-section div.container {*/
-    /*position: relative;*/
-    /*background: url("../images/background-photo.jpg") no-repeat;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: 50% 50%;*/
-    /*background-attachment: fixed;*/
-    /*border: 1px solid black;*/
-    /*height: 100%;*/
-    /*width: 100%;*/
-/*}*/
+/* Main section */
+.intro img {
+    position: relative;
+    width: 20%;
+    margin: 0% 40%;
+}
+
+.intro h1, h2 {
+    position: relative;
+    text-align: center;
+
+}
+
+.intro h1 {
+    font-family: "Pacifico";
+    font-size: 110px;
+    margin-top: 110px;
+    color: white;
+    text-shadow: 3px 3px rgba(31, 19, 19, 0.41);
+}
+
+.intro h2 {
+    font-family: "Lato";
+    text-shadow: 1px 1px rgb(236, 228, 228);
+}
 
 /* Video */
 
@@ -55,12 +70,6 @@
 }
 .video-container video.fillWidth {
     width: 100%;
-}
-
-.intro img {
-    position: relative;
-    width: 20%;
-    margin: 15% 30%;
 }
 
 /* Media queries */
