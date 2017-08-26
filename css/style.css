@@ -14,6 +14,7 @@
 /*}*/
 
 /* Video */
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -34,9 +35,13 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #000;
+    background-image: url("../Two-Swimmers/Two-Swimmers.jpg");
 }
-
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
 .video-container .filter {
     z-index: 100;
     position: absolute;
@@ -50,6 +55,12 @@
 }
 .video-container video.fillWidth {
     width: 100%;
+}
+
+.intro img {
+    position: relative;
+    width: 20%;
+    margin: 15% 30%;
 }
 
 /* Media queries */
