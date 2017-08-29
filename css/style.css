@@ -206,7 +206,7 @@ button {
     background-color: white;
 }
 
-#myprojects-title {
+.section-title {
     text-align: center;
     font-size: 55px;
     color: rgb(248, 174, 170);
