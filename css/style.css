@@ -20,10 +20,11 @@
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
+
 .test1 {
     width:60%;
     height:60%;
-    background-color:dimGray;
+    background-color: #ff7580 !important;
     border-radius:50%;
     position:absolute;
     color:white;
@@ -38,7 +39,7 @@
 .test2 {
     width:60%;
     height:60%;
-    background-color:dimGray;
+    background-color:#ff7580 !important;
     border-radius:50%;
     position:absolute;
     color:white;
@@ -52,7 +53,7 @@
 .test3 {
     width:60%;
     height:60%;
-    background-color:dimGray;
+    background-color: #ff7580 !important;
     border-radius:50%;
     position:absolute;
     color:white;
@@ -65,7 +66,7 @@
 .test4 {
     width:60%;
     height:60%;
-    background-color:dimGray;
+    background-color:#ff7580 !important;
     border-radius:50%;
     position:absolute;
     color:white;
@@ -129,8 +130,7 @@ button {
     transition: background-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     border-radius: .125em;
     background: transparent;
-    border: 1px solid #F89820;
-    color: #F89820;
+    border: 1px solid white;
     padding: .5em 1em;
     font-weight: bold;
     text-decoration: none;
@@ -142,20 +142,29 @@ button {
 }
 
 .teaser-button {
-    margin-left: 510px;
+    margin-left: 770px;
     font-size: 1.25em;
     display: block;
-    margin-bottom: 4em;
+    margin-top: -60px;
     color: #fff;
     border-color: #fff;
     text-align: center;
 }
 
-.last {
-    margin-left: 1020px;
-    background-color: pink;
+.teaser-button-hireme {
+    margin-left: 800px;
+    font-size: 1.25em;
+    display: block;
+    margin-top: 25px;
+    color: #fff;
+    border-color: #fff;
+    text-align: center;
 }
 
+.teaser-button:hover,
+.teaser-button-hireme:hover {
+    background: #ff7580;
+}
 
 /* About me section */
 .about-me {
@@ -178,22 +187,32 @@ button {
 }
 
 .right-side p {
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'ABeeZee', sans-serif;
     color: white;
     float: right;
-    margin: 6% 2%;
+    margin-top: 23%;
+    margin-left: 25%;
     text-align: justify;
 }
 
 /*Projects section */
 #projects {
     width: 100%;
-    height: 50%;
+    height: 120%;
     position: absolute;
     margin-top: 560px;
     border: 1px solid black;
     background-color: white;
+}
+
+#myprojects-title {
+    text-align: center;
+    font-size: 55px;
+    color: rgb(248, 174, 170);
+    text-shadow: 3px 1px #442f2f;
+    text-transform: capitalize;
+    font-family: "Pacifico";
 }
 
 /* Video */
@@ -383,7 +402,7 @@ a:active {
 }
 
 .grid {
-    padding: 20px 20px 100px 20px;
+    padding: 20px 20px 100px 50px;
     margin: 0 auto;
     list-style: none;
 }
