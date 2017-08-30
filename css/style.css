@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 /* Main section */
 
@@ -208,7 +209,6 @@ a:before {
     height: 120%;
     position: absolute;
     margin-top: 560px;
-    border: 1px solid black;
     background-color: white;
 }
 
@@ -228,12 +228,12 @@ a:before {
     height: 120%;
     position: absolute;
     margin-top: 1300px;
-    font-family:"Lato";
+    font-family: 'ABeeZee', sans-serif;
     font-size: 20px;
 }
 
 #skills .row{
-    margin-left: 20%;
+    margin-left: 14%;
     margin-top: 5%;
 }
 
@@ -241,9 +241,27 @@ a:before {
     margin-top: 65px !important;
 }
 
-.fa-heart:before {
+.skill-icon:before {
     margin-left: 55px;
     font-size: 28px;
+    color: black;
+    text-shadow: 2px 2px darkgrey;
+}
+
+h5 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+    font-size: 18px !important;
+    color: darkgray;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#skills p {
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: "Lato";
+    margin-left: -30px;
 }
 
 /* Video */
@@ -472,10 +490,6 @@ a:active {
     margin: 0;
     padding: 0;
     color: #fff;
-}
-
-.grid figcaption span:before {
-    content: 'by ';
 }
 
 .grid figcaption a {
@@ -823,6 +837,110 @@ a:active {
         width: 100%;
         min-width: 300px;
     }
+}
+
+
+/* Footer */
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float:right;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+#myFooter{
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
 }
 
 
