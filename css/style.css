@@ -141,6 +141,16 @@ button {
     position: relative;
 }
 
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:before {
+    text-decoration: none;
+    color: white;
+}
+
 .teaser-button {
     margin-left: 770px;
     font-size: 1.25em;
@@ -174,16 +184,12 @@ button {
     width: 100%;
     height: 80%;
     background-color: black;
-    background: -webkit-linear-gradient(left, black , #3a3535); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, black, #3a3535); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, black, #3a3535); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, black , #3a3535); /* Standard syntax */
 }
 
 .left-side img {
     width: 65%;
     position: absolute;
-    margin: 17% 30%;
+    margin: 17% 40%;
 }
 
 .right-side p {
@@ -207,12 +213,37 @@ button {
 }
 
 .section-title {
+    margin-top: 40px;
     text-align: center;
     font-size: 55px;
     color: rgb(248, 174, 170);
     text-shadow: 3px 1px #442f2f;
     text-transform: capitalize;
     font-family: "Pacifico";
+}
+
+/* Skills section*/
+#skills {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    margin-top: 1300px;
+    font-family:"Lato";
+    font-size: 20px;
+}
+
+#skills .row{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.skills {
+    margin-top: 65px !important;
+}
+
+.fa-heart:before {
+    margin-left: 55px;
+    font-size: 28px;
 }
 
 /* Video */
