@@ -224,12 +224,14 @@ a:before {
 
 /* Skills section*/
 #skills {
+    display: block;
     width: 100%;
     height: 120%;
     position: absolute;
     margin-top: 1300px;
     font-family: 'ABeeZee', sans-serif;
     font-size: 20px;
+    background-color: rgba(156, 156, 156, 0.08);
 }
 
 #skills .row{
@@ -264,7 +266,73 @@ h5 {
     margin-left: -30px;
 }
 
-/* Video */
+/* Experience */
+
+#experience {
+    margin-top: 2000px;
+    background: black;
+    height: 100px;
+}
+
+#my-experiece {
+    padding: 12px;
+    margin-right: 500px;
+}
+
+.click-me {
+    font-family: "Lato";
+    font-size: 20px;
+    float: right;
+    margin-right: 430px;
+    margin-top: -70px;
+    border: 2px solid white;
+    padding: 12px 62px;
+}
+
+.click-me:hover {
+    background-color: rgb(248, 174, 170);
+}
+
+/* Unique page for my experience */
+#my-prof-experience {
+    background-image: url("../images/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-title-experience {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px black;
+    color: white;
+    font-size: 60px;
+    margin-top: 42px;
+}
+
+.list-experiences {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: bolder;
+    list-style-type: square;
+}
+
+.sub-list {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#list-section {
+    border-radius: 40px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 550px;
+    padding: 20px 0 20px;
+    opacity: 0.8;
+    color: black;
+    text-shadow: 1px 1px rgba(169, 169, 169, 0.33);
+}
+
+    /* Video */
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -843,6 +911,9 @@ a:active {
 /* Footer */
 #myFooter {
     background-color: #3a3f46;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     color: white;
 }
 
