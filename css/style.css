@@ -324,12 +324,33 @@ h5 {
 #list-section {
     border-radius: 40px;
     background-color: white;
-    margin-left: 20px;
-    margin-right: 550px;
+    margin-left: 130px;
+    margin-right: 554px;
+    margin-top: 90px;
     padding: 20px 0 20px;
     opacity: 0.8;
     color: black;
     text-shadow: 1px 1px rgba(169, 169, 169, 0.33);
+}
+
+/* Quote section*/
+.quote-title,
+.quote-text {
+    text-align: center;
+    color: black;
+}
+
+.quote-title {
+    font-family: "Lato";
+    font-size: 30px !important;
+    margin-top: 40px;
+    text-shadow: 3px 2px lightgrey;
+}
+
+.quote-text {
+    font-family: 'ABeeZee', sans-serif !important;
+    font-style: italic;
+    font-size: 20px;
 }
 
     /* Video */
