@@ -295,7 +295,7 @@ h5 {
 
 /* Unique page for my experience */
 #my-prof-experience {
-    background-image: url("../images/background-photo.jpg");
+    background-image: url("../images/beach.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -343,7 +343,7 @@ h5 {
 .quote-title {
     font-family: "Lato";
     font-size: 30px !important;
-    margin-top: 40px;
+    margin-top: 100px;
     text-shadow: 3px 2px lightgrey;
 }
 
@@ -353,6 +353,43 @@ h5 {
     font-size: 20px;
 }
 
+/* Contact Me */
+label {
+    margin-left: 10px;
+}
+
+#contact-me {
+    font-size: 18px;
+    color: black;
+    font-family: "Lato";
+    box-shadow: 1px 1px #a08f8f;
+    background-color: #f1aca9;
+    height: 260px;
+    margin-top: 120px;
+    text-shadow: 1px 0px #cebdbd;
+}
+
+#main-title-contact {
+    font-size: 20px !important;
+    margin-top: 20px;
+}
+
+#contact-me .container label {
+    font-family: "Lato";
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+#contact-me li {
+    font-family: "Lato";
+    font-size: 15px;
+    padding-left: 12px;
+    list-style-type: none;
+}
+
+#contact-me ul {
+    padding-left: 0;
+}
     /* Video */
 .homepage-hero-module {
     border-right: none;
