@@ -360,13 +360,12 @@ label {
 
 #contact-me {
     font-size: 18px;
-    color: black;
+    color: #cecece;
     font-family: "Lato";
     box-shadow: 1px 1px #a08f8f;
-    background-color: #f1aca9;
+    background-image: url(../images/footer-background.jpg);
     height: 260px;
     margin-top: 120px;
-    text-shadow: 1px 0px #cebdbd;
 }
 
 #main-title-contact {
@@ -377,7 +376,6 @@ label {
 #contact-me .container label {
     font-family: "Lato";
     font-size: 15px;
-    padding-left: 12px;
 }
 
 #contact-me li {
@@ -389,6 +387,26 @@ label {
 
 #contact-me ul {
     padding-left: 0;
+}
+
+#contact-me .col-md-4 {
+    padding-left: 170px;
+}
+
+.social-media {
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+#contact-me .container .row {
+    margin-top: 50px;
+}
+
+#navigation-label {
+    font-size: 22px !important;
 }
     /* Video */
 .homepage-hero-module {
